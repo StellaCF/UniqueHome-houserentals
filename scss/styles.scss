@@ -2,8 +2,13 @@
 @import"./navbar";
 @import"./mixins";
 @import"./mediaquery";
+@import"./contact";
 
 header{
   width:100%;
   background-color:blue;
+}
+
+.scrollToTop {
+  @include scrolltop ();
 }
