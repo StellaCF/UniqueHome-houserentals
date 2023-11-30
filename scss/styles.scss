@@ -12,3 +12,7 @@ header{
 .scrollToTop {
   @include scrolltop ();
 }
+
+.iframe {
+  @include map ();
+}
