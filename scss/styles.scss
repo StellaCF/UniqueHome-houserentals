@@ -2,41 +2,8 @@
 @import"./navbar";
 @import"./mixins";
 @import"./mediaquery";
-@import"./about";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 header{
   width:100%;
   background-color:blue;
-}
-
-// .scrollToTop {
-//   @include scrolltop ();
-// }
-
-h1 {
-  @include hero-texth1 ();
-}
-
-.about {
-  @include about-1 ();
-}
-.why {
-  @include why-1 ();
-}
-
-.value {
-  @include value ();
-}
-
-.await {
-  @include await ();
-}
-
-.join {
-  @include join-us ();
 }
