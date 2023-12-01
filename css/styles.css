@@ -86,9 +86,12 @@ h1 {
 .why .why-items div {
   width: 100%;
   height: 17rem;
-  background-color: green;
+  background-color: #276d60;
   padding: 1rem;
   border-radius: 0 0 0 3rem;
+  padding: 2rem;
+  -webkit-box-shadow: 1px 1px 10px #276d60;
+          box-shadow: 1px 1px 10px #276d60;
 }
 .why .why-items div h4 {
   font-size: 1.7rem;
@@ -136,9 +139,13 @@ h1 {
 .value .value-items div {
   width: 100%;
   height: 17rem;
-  background-color: green;
+  background-color: #276d60;
   padding: 1rem;
-  border-radius: 0 0 0 3rem;
+  border-radius: 0 3rem 0 3rem;
+  color: white;
+  padding: 2rem;
+  -webkit-box-shadow: 1px 1px 10px #276d60;
+          box-shadow: 1px 1px 10px #276d60;
 }
 .value .value-items div h3 {
   font-size: 1.7rem;
