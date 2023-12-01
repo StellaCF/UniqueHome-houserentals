@@ -2,7 +2,7 @@
 @import"./navbar";
 @import"./mixins";
 @import"./mediaquery";
-@import"./contact";
+@import"./about";
 
 * {
   margin: 0;
@@ -14,14 +14,29 @@ header{
   background-color:blue;
 }
 
-.scrollToTop {
-  @include scrolltop ();
+// .scrollToTop {
+//   @include scrolltop ();
+// }
+
+h1 {
+  @include hero-texth1 ();
 }
 
-.iframe {
-  @include map ();
+.about {
+  @include about-1 ();
+}
+.why {
+  @include why-1 ();
 }
 
-.contact {
-  @include contact-1 ();
+.value {
+  @include value ();
+}
+
+.await {
+  @include await ();
+}
+
+.join {
+  @include join-us ();
 }
